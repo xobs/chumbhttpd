@@ -1,0 +1,9 @@
+#
+# get rid of various editor temp files
+#
+all:
+	rm -f *~
+	rm -f include/*~
+	rm -f include/chumby_httpd/*~
+	rm -f src/*~
+	rm -f examples/*~
